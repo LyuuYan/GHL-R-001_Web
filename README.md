@@ -22,11 +22,11 @@ start() {
 }
 放到 /etc/init.d/ 然后执行 chmod 755 /etc/init.d/start_wifi && /etc/init.d/start_wifi enable && /etc/init.d/start_wifi start
 # 插件合集概括
-状态：负载均衡、TTYD终端  
-服务：V2RAY服务器、广告屏蔽大师PLUS+、ShadowSocksR Plus+、解除网易云音乐播放限制、WIFI计划、KMS服务器、Frp内网穿透、MWAN3分流助手
-网络存储：FTP服务器、Aria2配置  
-VPN：ZEroTier
-网络：Turbo ACC网络加速、多线多拨、负载均衡、带宽监控
+状态：负载均衡、TTYD终端    
+服务：V2RAY服务器、广告屏蔽大师PLUS+、ShadowSocksR Plus+、解除网易云音乐播放限制、WIFI计划、KMS服务器、Frp内网穿透、MWAN3分流助手  
+网络存储：FTP服务器、Aria2配置    
+VPN：ZEroTier  
+网络：Turbo ACC网络加速、多线多拨、负载均衡、带宽监控  
 主题：opentop
 # 关于个人遇到校园网叠加网速&自动连接校园网的问题
 当初我的想法很天真，想把宿舍的3个宽带叠加后再通过wifi共享给整间宿舍，解决办法是设置3个WAN口（VLAN），后来发现设置以后只能关闭其中两个wan口后另一个wan口插入网线才能跳出校园网认证网页，如果3个wan口同时开就不能。也就是说如果想实现3个wan口同时叠加并且有效的话需要手动重复关闭、开启wan口操作才行，属实麻烦。。本人还是小白暂且放弃。。
