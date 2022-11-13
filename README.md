@@ -22,9 +22,9 @@ start() {
 }
 放到 /etc/init.d/ 然后执行 chmod 755 /etc/init.d/start_wifi && /etc/init.d/start_wifi enable && /etc/init.d/start_wifi start
 # 插件合集概括
-状态：负载均衡  TTYD终端  
-服务：V2RAY服务器  广告屏蔽大师PLUS+  ShadowSocksR Plus+  解除网易云音乐播放限制   WIFI计划  KMS服务器  Frp内网穿透  MWAN3分流助手
-网络存储：FTP服务器  Aria2配置  
+状态：负载均衡、TTYD终端  
+服务：V2RAY服务器、广告屏蔽大师PLUS+、ShadowSocksR Plus+、解除网易云音乐播放限制、WIFI计划、KMS服务器、Frp内网穿透、MWAN3分流助手
+网络存储：FTP服务器、Aria2配置  
 VPN：ZEroTier
 网络：Turbo ACC网络加速  多线多拨  负载均衡
 带宽监控
