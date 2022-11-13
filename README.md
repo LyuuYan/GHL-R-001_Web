@@ -11,7 +11,6 @@
 修改ua2f内容，将里面的'0'都改为'1'即可开启开机自启。
 2.创建本地脚本start_wifi
 内容为
-'''
 #!/bin/sh /etc/rc.common
 START=99
 start() {
@@ -21,7 +20,6 @@ start() {
   brctl addif br-lan ra0
   brctl addif br-lan rai0
 }
-'''
 放到 /etc/init.d/ 然后执行 chmod 755 /etc/init.d/start_wifi && /etc/init.d/start_wifi enable && /etc/init.d/start_wifi start
 # 插件合集概括
 状态：负载均衡、TTYD终端    
